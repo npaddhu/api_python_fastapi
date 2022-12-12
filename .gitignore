@@ -1,0 +1,5 @@
+__pycache__
+.env
+app_bkp
+.vscode
+readme.txt
