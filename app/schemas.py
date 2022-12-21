@@ -20,6 +20,7 @@ class PostCreate(PostsBase):
 class UserCreateReq(BaseModel):
     email: EmailStr
     password: str
+    phone_numer: int
 
 class UserCreateRes(BaseModel):
     id: int
