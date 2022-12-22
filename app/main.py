@@ -30,9 +30,9 @@ app.add_middleware(
 def root():
     return {"message": "Welcome to FastAPI..!"}
 
-app.include_router(post.router)     # Control goes from here to routers/post/ urls
-app.include_router(user.router)   
-app.include_router(auth.router)  
+app.include_router(user.router)     # Control goes from here to routers/user/ urls
+app.include_router(auth.router)
+app.include_router(post.router)
 app.include_router(vote.router)
 
 
