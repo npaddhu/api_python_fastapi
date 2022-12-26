@@ -87,5 +87,5 @@ jobs:
           script: |
             cd app/src
             git pull
-            sudo systemctl restart api
+            sudo systemctl restart fastapi
 
